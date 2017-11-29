@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<configuration>
+
+    <servicePort>8080</servicePort>
+
+    <zookeeperConfig>
+        <!--<hostPort>ssspark05:8681,ssspark06:8681,ssspark07:8681</hostPort> -->
+        <rootPath>/spellcheck4</rootPath>
+        <soTimeout>3000</soTimeout>
+    </zookeeperConfig>
+
+    <indexConfig>
+        <indexPath>index</indexPath>
+        <tempPath>temp</tempPath>
+    </indexConfig>
+</configuration>
